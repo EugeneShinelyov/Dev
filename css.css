@@ -1,3 +1,6 @@
+body{
+    display: block;
+}
 .head-wrapper{
     display: inline-block;
     background-color: #483386;
@@ -69,19 +72,20 @@
     margin-top:10px;
 }
 .main{
-    background-color: grey;
+    
     border-color: indigo;
     margin-left:70px;
     margin-right:70px;
     
 }
 .main-picture{
+  
     margin-top: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
     margin-right: 15px;
     position: relative;
-   
+    display: inline-block;
     
 }
 .text-in-picture{
@@ -90,8 +94,28 @@
     color:white;
     top:300px;
     margin-left:25px
+    
 }
 a{
     text-decoration: none;
     color:black;
+}
+.picture{
+    float:left;
+}
+.sidebar{
+    max-width: 23%;
+    max-height: 50%;
+    
+    display: flex;
+    border:2px solid;
+    color:black;
+   box-sizing: border-box;
+}
+.company{
+    display: inline-block
+}
+.company-images{
+    left:200px;
+    display: inline-block;
 }
