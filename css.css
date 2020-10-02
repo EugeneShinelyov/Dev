@@ -1,0 +1,45 @@
+.head-wrapper{
+    display: inline-block;
+    background-color: #483386;
+    position: static;
+    height: 60px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    margin-left: none;
+}
+.head-button{
+    margin-top:9px;
+   background-color:#9185B6 ;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+   
+   
+}
+.head-wrapper-content{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "formular", -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: -0.57px;
+    line-height: 20px;
+    align-items: center; */
+}
+/* .main{
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    height: 1000px;
+    /* width:90% */
